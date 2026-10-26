@@ -9,7 +9,10 @@
     "start": "wp-scripts start",
     "build": "wp-scripts build",
     "lint:js": "wp-scripts lint-js",
-    "lint:css": "wp-scripts lint-style"
+    "lint:css": "wp-scripts lint-style",
+	"bundle": "bash bin/bundle.sh",
+    "generate-pot": "wp i18n make-pot . languages/development-mode-indicator.pot --domain=development-mode-indicator --exclude=vendor,node_modules,dist,bin,.DS_Store",
+    "plugin-check": "wp plugin check development-mode-indicator --exclude-directories=vendor,bin,dist,.claude --exclude-files=phpcs.xml.dist,composer.json,composer.lock,package.json,.gitignore,.DS_Store"
   },
   "devDependencies": {
     "@wordpress/icons": "^17.0.0",

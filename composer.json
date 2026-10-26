@@ -1,0 +1,21 @@
+{
+    "name": "rosannagaju/development-mode-indicator",
+    "description": "Visually identify WordPress sites that are in development, staging, testing, QA, maintenance, or another custom mode.",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.13",
+        "wp-coding-standards/wpcs": "^3.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Roshan Nagaju",
+            "email": "rosannagaju@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
