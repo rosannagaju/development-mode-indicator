@@ -6,7 +6,7 @@
  * Requires at least: 6.4
  * Requires PHP: 7.4
  * Author: Roshan Nagaju
- * Author URI: https://rosannagaju.com
+ * Author URI: https://github.com/rosannagaju/development-mode-indicator
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: development-mode-indicator
