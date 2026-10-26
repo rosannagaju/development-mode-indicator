@@ -10,6 +10,8 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Make a WordPress environment visibly distinct from production.
 
+Requires WordPress 6.4 or later and PHP 7.4 or later.
+
 == Description ==
 
 Development Mode Indicator gives developers a small, focused settings screen for identifying development, staging, testing, QA, maintenance, or custom environments.
@@ -25,4 +27,9 @@ Choose an Admin Bar indicator, a fixed watermark, or a striped bottom border. Th
 
 == Privacy ==
 
-This plugin does not collect or transmit personal data.
+This plugin does not collect or transmit personal data. Settings are stored in the site's WordPress options table and are only editable by users with the `manage_options` capability.
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial release.
